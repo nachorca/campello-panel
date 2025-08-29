@@ -5,6 +5,7 @@
   - `mapa_trafico.html`: Mapa de Google Maps con capa de tráfico, búsqueda por geocodificación y geolocalización bajo demanda.
   - `qr_mapa.html`: Generador de QR que apunta a la URL donde se sirve el mapa.
 - Uso previsto: informe/presentación con acceso interactivo (en local o publicado) y QR para facilitar el acceso móvil.
+- 
 
 ## 2) Activos y Datos Procesados
 - **Clave de API**: Google Maps JavaScript API y Geocoding API.
