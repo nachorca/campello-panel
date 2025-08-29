@@ -13,12 +13,33 @@
   - Medidas preventivas por nivel de aviso (verde/amarillo/naranja/rojo).
 - Integración técnica (opcional): usar API abierta de AEMET para avisos/municipios y panel de playas municipal si existe.
 
+### Plantilla de datos (rellenar)
+- Fecha/hora (local):
+- Zona/municipio:
+- Avisos vigentes (tipo/nivel):
+- Oleaje/estado mar:
+- Banderas y servicios playa:
+- Riesgo (B/M/A):
+- Medidas/acción:
+- Fuentes (URLs):
+- Evidencias (capturas ruta):
+
 ## Criminalidad
 - Enfoque: tendencias de hurtos, robos con fuerza, vandalismo y delitos contra patrimonio en la zona.
 - Acciones:
   - Recopilar indicadores oficiales (p. ej., Ministerio del Interior / Policía Local) y variación interanual.
   - Mapear zonas calientes si hay datos geográficos disponibles (respetando privacidad y agregación).
   - Plan de mitigación: refuerzo en horarios/lugares críticos, sensibilización y medidas físicas.
+
+### Plantilla de datos (rellenar)
+- Periodo (mes/trimestre/año):
+- Indicadores clave (tasa/variación):
+- Zonas de mayor incidencia:
+- Tendencia (↑/→/↓):
+- Riesgo (B/M/A):
+- Medidas/acción:
+- Fuentes (URLs):
+- Evidencias (mapas/capturas):
 
 ## Disturbios Civiles
 - Alcance: manifestaciones, protestas, aglomeraciones y eventos que puedan afectar a la seguridad/operaciones.
@@ -27,12 +48,33 @@
   - Evaluar impacto en rutas de acceso, horarios y necesidad de desvíos.
   - Definir umbrales de escalado y canales de coordinación con autoridades.
 
+### Plantilla de datos (rellenar)
+- Evento/convocatoria:
+- Fecha/hora y ubicación:
+- Estimación de aforo/impacto:
+- Afectación prevista (movilidad/operaciones):
+- Riesgo (B/M/A):
+- Medidas/acción y coordinación:
+- Fuentes (bandos/BOE/ayto):
+- Evidencias (capturas/comunicados):
+
 ## Incidencias Tecnológicas
 - Vectores: caídas de servicios (energía/ISP), fallos de aplicaciones críticas, ciberincidentes con impacto operativo.
 - Acciones:
   - Vigilar páginas de estado de proveedores y configurar alertas.
   - Plan de continuidad: contactos, procedimientos de contingencia y tiempos objetivo de recuperación.
   - Registro de incidentes y lecciones aprendidas.
+
+### Plantilla de datos (rellenar)
+- Proveedor/servicio afectado:
+- Inicio/fin (fecha/hora):
+- Impacto (usuarios/servicios):
+- Causa raíz (si conocida):
+- Riesgo (B/M/A):
+- Medidas/acción inmediata:
+- Acciones preventivas (a futuro):
+- Fuentes (status page/tickets):
+- Evidencias (logs/capturas):
 
 ## Tráfico y Aparcamiento
 - Situación actual: visualización con tráfico en tiempo real en `mapa_trafico.html` (El Campello por defecto), búsqueda y geolocalización opcional.
@@ -41,6 +83,16 @@
   - Capturas para el informe en horas pico/valle y enlace/QR (`qr_mapa.html`) para acceso móvil.
   - Si es posible, integrar información municipal de ocupación de aparcamientos.
 
+### Plantilla de datos (rellenar)
+- Fecha/hora (local):
+- Zonas evaluadas:
+- Incidencias/cortes:
+- Disponibilidad de aparcamiento (si aplica):
+- Nivel de congestión (B/M/A):
+- Recomendaciones de rutas/parking:
+- Fuentes (DGT/ayto/propias):
+- Evidencias (capturas `mapa_trafico.html`):
+
 ## Fuentes
 - Meteorología y costa: AEMET (avisos y predicción), boletines municipales y salvamento en playas.
 - Seguridad ciudadana: Ministerio del Interior, Policía Local, comunicaciones oficiales de la Subdelegación del Gobierno.
@@ -48,8 +100,15 @@
 - Tecnología: páginas de estado de proveedores (energía, ISP, cloud) y CERT/INCIBE.
 - Movilidad: DGT, Ayuntamiento (tráfico local, obras), operadoras de parking y transporte público.
 
+### Plantilla de consolidación (rellenar)
+- Fuente: URL y alcance
+- Frecuencia de consulta:
+- Responsable de revisión:
+- Observaciones de fiabilidad:
+
 ---
 
 Notas operativas
 - Evidencias: incorpora en el informe capturas del mapa de tráfico, QR funcional, y tablas/resúmenes de cada apartado con fecha/hora y fuente.
 - Privacidad y legalidad: usar datos agregados/anonimizados y citar fuentes oficiales; revisar RGPD si se tratan datos personales.
+
